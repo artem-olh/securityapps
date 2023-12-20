@@ -1,8 +1,8 @@
-package ru.spring.security.app.repositories;
+package ru.spring.security.apps.repositories;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import ru.spring.security.app.entities.User;
+import ru.spring.security.apps.entities.User;
 
 import java.util.Optional;
 

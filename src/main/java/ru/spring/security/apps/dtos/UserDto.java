@@ -1,4 +1,4 @@
-package ru.spring.security.app.dtos;
+package ru.spring.security.apps.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

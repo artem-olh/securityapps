@@ -1,4 +1,4 @@
-package ru.spring.security.app.controllers;
+package ru.spring.security.apps.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

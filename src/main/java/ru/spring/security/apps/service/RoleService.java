@@ -1,9 +1,9 @@
-package ru.spring.security.app.service;
+package ru.spring.security.apps.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.spring.security.app.entities.Role;
-import ru.spring.security.app.repositories.RoleRepository;
+import ru.spring.security.apps.entities.Role;
+import ru.spring.security.apps.repositories.RoleRepository;
 
 @Service
 @RequiredArgsConstructor

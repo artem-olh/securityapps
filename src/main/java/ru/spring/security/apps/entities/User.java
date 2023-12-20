@@ -1,4 +1,4 @@
-package ru.spring.security.app.entities;
+package ru.spring.security.apps.entities;
 
 import lombok.Data;
 

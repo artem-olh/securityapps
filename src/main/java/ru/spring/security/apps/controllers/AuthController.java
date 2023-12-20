@@ -1,13 +1,13 @@
-package ru.spring.security.app.controllers;
+package ru.spring.security.apps.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import ru.spring.security.app.dtos.JwtRequest;
-import ru.spring.security.app.dtos.RegistrationUserDto;
-import ru.spring.security.app.service.AuthService;
+import ru.spring.security.apps.dtos.JwtRequest;
+import ru.spring.security.apps.dtos.RegistrationUserDto;
+import ru.spring.security.apps.service.AuthService;
 
 @RestController
 @RequiredArgsConstructor

@@ -1,4 +1,4 @@
-package ru.spring.security.app.service;
+package ru.spring.security.apps.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -9,13 +9,13 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestBody;
-import ru.spring.security.app.dtos.JwtRequest;
-import ru.spring.security.app.dtos.JwtResponse;
-import ru.spring.security.app.dtos.RegistrationUserDto;
-import ru.spring.security.app.dtos.UserDto;
-import ru.spring.security.app.entities.User;
-import ru.spring.security.app.exceptions.AppError;
-import ru.spring.security.app.utils.JwtTokenUtils;
+import ru.spring.security.apps.dtos.JwtRequest;
+import ru.spring.security.apps.dtos.JwtResponse;
+import ru.spring.security.apps.dtos.RegistrationUserDto;
+import ru.spring.security.apps.dtos.UserDto;
+import ru.spring.security.apps.entities.User;
+import ru.spring.security.apps.exceptions.AppError;
+import ru.spring.security.apps.utils.JwtTokenUtils;
 
 @Service
 @RequiredArgsConstructor

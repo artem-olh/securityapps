@@ -1,4 +1,4 @@
-package ru.spring.security.app.configs;
+package ru.spring.security.apps.configs;
 
 
 import io.jsonwebtoken.ExpiredJwtException;
@@ -10,7 +10,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-import ru.spring.security.app.utils.JwtTokenUtils;
+import ru.spring.security.apps.utils.JwtTokenUtils;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

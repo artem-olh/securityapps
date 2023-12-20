@@ -1,4 +1,4 @@
-package ru.spring.security.app.service;
+package ru.spring.security.apps.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -8,9 +8,9 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import ru.spring.security.app.dtos.RegistrationUserDto;
-import ru.spring.security.app.entities.User;
-import ru.spring.security.app.repositories.UserRepository;
+import ru.spring.security.apps.dtos.RegistrationUserDto;
+import ru.spring.security.apps.entities.User;
+import ru.spring.security.apps.repositories.UserRepository;
 
 import java.util.List;
 import java.util.Optional;

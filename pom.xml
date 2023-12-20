@@ -9,9 +9,9 @@
 		<relativePath/>
 	</parent>
 	<groupId>ru.spring</groupId>
-	<artifactId>security-app</artifactId>
+	<artifactId>security-apps</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>security-app</name>
+	<name>security-apps</name>
 	<description>Security project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
